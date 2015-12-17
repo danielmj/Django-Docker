@@ -1,6 +1,6 @@
 from ubuntu:precise
 
-maintainer Dockerfiles
+maintainer dj
 
 run apt-get update
 run apt-get install -y build-essential git
