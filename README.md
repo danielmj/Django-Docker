@@ -1,5 +1,11 @@
 # Django, uWSGI and Nginx in a container
 
+This project is an extension to [Dockerfiles django-uwsgi-nginx](https://github.com/dockerfiles/django-uwsgi-nginx) repo. This projects differences:
+
+1. All files are stored in /opt/django/ folder rather than the home directory.
+2. The django project is also stored in that directory.
+3. A run.sh script is utilized to sync the db and collect static prior to running.
+
 ### Create your project
 
 Navigate to this directory and type:
